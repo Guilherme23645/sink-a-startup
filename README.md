@@ -1,5 +1,10 @@
 # Head First Java - Sink a Startup Game
 
+## Overview
+
+This repo contains my flavor of the implementation of the Sink-a-Startup Game from the Head First Java book
+
+## Chart
 ```mermaid
 ---
 config:
