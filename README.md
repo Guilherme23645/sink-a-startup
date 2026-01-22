@@ -16,5 +16,6 @@ flowchart TD
     bustobj -- instantiates --> gamehobj & arrlstobj1
     arrlstobj1 -- contains 3 -->  startupobj
     startupobj -- contains --> arrlstobj2
-    bustobj -- make locations --> gamehobj -- here it is --> bustobj
+    bustobj -- make locations/user guess --> gamehobj -- here it is --> bustobj
+    arrlstobj1 -- check guess --> startupobj -- miss/hit/kill --> arrlstobj1
 ```
