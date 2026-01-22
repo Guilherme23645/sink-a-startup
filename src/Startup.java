@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class Startup {
 
     private ArrayList<String> locationCells;
+    private String name;
 
     public void setLocationCells(ArrayList<String> locs) {
           locationCells = locs;      
