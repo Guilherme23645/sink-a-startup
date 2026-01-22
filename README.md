@@ -5,7 +5,7 @@
 config:
   theme: 'dark'
 ---
-flowchart LR
+flowchart TD
     bustcls[StartupBust Class]
     bustobj((StartupBust Object))
     gamehobj((Game Helper))
@@ -16,4 +16,5 @@ flowchart LR
     bustobj -- instantiates --> gamehobj & arrlstobj1
     arrlstobj1 -- contains 3 -->  startupobj
     startupobj -- contains --> arrlstobj2
+    bustobj -- make locations --> gamehobj -- here it is --> bustobj
 ```
