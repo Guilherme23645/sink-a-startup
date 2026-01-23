@@ -25,4 +25,8 @@ public class Startup {
 
         return result;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
